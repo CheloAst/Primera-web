@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+.firme {
+    color: yellow;
+    background-color: brown;
+}
+.Rocket {
+    background-image: url("./img/Rocket.jpg");
+    background-size: cover; 
+    background-position: center center;
+}
+.Marvel {
+    background-image: url("./img/Marvel\ Rivals.jpg");
+    background-size: 90px;
+    background-size: cover; 
+    background-position: center center;
+}
+div {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    border: solid 3px black;
+    margin: 2em;
+    text-align: center;
+    text-shadow: 2px 3px 3px pink;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: #6f09e4;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: #00ff00;
+}
+html {
+    font-family: "Lato", serif;
+}
+h1 {
+    background-color: midnightblue;
+    text-align: center;
+    padding: 3rem 3rem;
+    margin: 0;
+    color: fff;
+}
+.contenido {
+    transition: box-shadow 0.3s ease;
+    width: 350px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.30rem;
+    padding: 0.25rem 0;
+}
+article p {
+    padding: 0.5rem 1rem;
+}
+article img {
+    padding: 0 0 0.5rem 0;
+}
+article:hover {
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+footer {
+    background-color: #555555;
+    padding: 2rem;
+    margin: 0;
+}
+footer section {
+    float: right;
+    margin: 0;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    transition: color 0.3s;
+}
